@@ -1,9 +1,9 @@
 Used Cars 
 
 id - INT - PRIMARY_KEY -(NOTNULL -  UNIQUE) - AUTO_INCREMENT 
-brand - VARCHAR(255) - NOTNULL
-model - VARCHAR(50) -NOTNULL
-year - YEAR - NOTNULL
+brand - VARCHAR(255) - NOTNULL - INDEX
+model - VARCHAR(50) -NOTNULL - INDEX
+year - YEAR - NOTNULL - INDEX
 nationality - VARCHAR(50) - NOTNULL - 
 fuel_type - VARCHAR(50) - NOTNULL
 description - TEXT - NULL
